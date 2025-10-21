@@ -1,6 +1,6 @@
-# All unpinned blobs below are extracted from lisa V816.0.10.0.UKOMIXM
+# All unpinned blobs below are extracted from lisa OS2.0.8.0.UKOMIXM
 
-product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk|bd16c61570b32f13a517b66502eb05fedf55384b
+product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk
 system_ext/lib64/libcamera_algoup_jni.xiaomi.so:system/lib64/libcamera_algoup_jni.xiaomi.so
 system_ext/lib64/libcamera_mianode_jni.xiaomi.so:system/lib64/libcamera_mianode_jni.xiaomi.so
 system_ext/lib64/libmicampostproc_client.so:system/lib64/libmicampostproc_client.so

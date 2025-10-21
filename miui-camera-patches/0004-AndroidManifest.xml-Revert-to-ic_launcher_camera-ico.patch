@@ -1,0 +1,26 @@
+From 439b8404d6e0b0bb3818589747f58f69fc107b73 Mon Sep 17 00:00:00 2001
+From: Alexander Winkowski <dereference23@outlook.com>
+Date: Thu, 18 Apr 2024 11:52:30 +0200
+Subject: [PATCH 4/4] AndroidManifest.xml: Revert to `ic_launcher_camera` icon
+
+Change-Id: Icd75f081fffa170171f3ae24687c79118e4d6603
+---
+ AndroidManifest.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/AndroidManifest.xml b/AndroidManifest.xml
+index 3f55d9a4..b2631e97 100644
+--- a/AndroidManifest.xml
++++ b/AndroidManifest.xml
+@@ -72,7 +72,7 @@
+         <package android:name="com.xiaomi.scanner"/>
+         <package android:name="com.android.htmlviewer"/>
+     </queries>
+-    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_camera_cv" android:label="@string/camera_label" android:largeHeap="true" android:name="com.android.camera.CameraAppImpl" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/ThemeCamera">
++    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/camera_label" android:largeHeap="true" android:name="com.android.camera.CameraAppImpl" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/ThemeCamera">
+         <meta-data android:name="required_permissions" android:value="@string/required_permissions_supportModifiable"/>
+         <meta-data android:name="miui.supportRequiredModifiable" android:value="true"/>
+         <meta-data android:name="com.miui.bugreport.LOG_DIR" android:resource="@xml/log_paths"/>
+-- 
+2.51.1.dirty
+
