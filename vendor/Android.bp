@@ -162,3 +162,21 @@ android_app_import {
     },
     privileged: true,
 }
+
+prebuilt_etc {
+    name: "camera_cnf.txt",
+    owner: "xiaomi/miuicamera-lisa",
+    src: "proprietary/vendor/etc/camera/camera_cnf.txt",
+    filename_from_src: true,
+    sub_dir: "camera",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "st_license.lic",
+    owner: "xiaomi/miuicamera-lisa",
+    src: "proprietary/vendor/etc/camera/st_license.lic",
+    filename_from_src: true,
+    sub_dir: "camera",
+    soc_specific: true,
+}
